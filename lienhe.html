@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<style>
+	body{
+		background: url(Images/picture4.jpg);
+	}
+	.lienhe{
+		border-radius: 10px;
+		width: 450px;
+		margin: auto;
+		background: #bf00bf;
+		margin-top: 100px;
+		padding: 5px;
+	}
+	form{
+		padding: 10px;
+		font-family: arial;
+		border:1px dotted white;
+	}
+	h2{
+		width: 60%;
+		text-align: center;
+		background: orange;
+		color: white;
+		padding: 10px;
+		border-radius: 10px;
+		margin-left: 77px;
+	}
+	input{
+		padding: 10px;
+		margin: 5px;
+		border-radius: 5px;
+		border:none;
+	}
+	.noidung{
+		font-size: 50px;
+	}
+	input[type=text], input[type=email], input[type=number]{width: 90%;}
+	input[type=submit]{
+		width: 40%;
+		background: orange;
+		cursor: pointer;
+		font-size: 18px;
+		font-weight: bold;
+		color:white;
+		margin-left: 130px;
+	}
+	input[type=submit]:hover{ background: yellow; }
+	select{
+		padding:10px;
+		width: 32%;
+		border-radius: 5px;
+	}
+</style>
+<body>
+	<div class="lienhe">
+		<form>
+			<h2> Contact</h2>
+			<h3> Name</h3><input type="text" name="yourname" placeholder="Your Name">
+			<h3> Email</h3><input type="email" name="email" placeholder="Your Email">
+			<h3> Mobile number</h3><input type="number" name="number" placeholder="Số điện thoại">
+			<h3> Address</h3><input type="text" name="diachi" placeholder="Địa Chỉ">
+			<h3> Content</h3><input class="noidung" type="text" name="noidung" placeholder="">
+			<input type="submit" value="Submit">
+		</form>
+		
+	</div>
+</body>
+</html>
