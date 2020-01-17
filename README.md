@@ -1,2 +1,2 @@
 # ASM2WEB
-#README
+# ENV requirements: LAMP
